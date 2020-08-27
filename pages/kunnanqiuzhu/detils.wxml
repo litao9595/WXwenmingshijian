@@ -1,0 +1,17 @@
+<!--pages/kunnanqiuzhu/detils.wxml-->
+<view class="mian-box">
+    <view class="detisl-content">
+        <view class="title">代养宠物<text>待接单</text></view>
+        <view class="txt-box">类型：求助</view>
+        <view class="txt-box">联系人：13312345678</view>
+        <view class="txt-box">联系电话：13980733563</view>
+        <view class="txt-box">所属区域：全部机构-蓬安县-鲜店乡-建设街社区</view>
+        <view class="txt-box">详细地址：</view>
+        <view class="map-box"></view>
+    </view>
+    <view class="detisl-content">
+        <view class="title-2">活动介绍</view>
+        <view class="details-img">代养宠物</view>
+    </view>
+    <view class="submit-btn">确定</view>
+</view>

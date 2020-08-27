@@ -1,0 +1,200 @@
+<!--pages/zhiyuanhuodong/addActivity.wxml-->
+<view style="background-color: #f5f5f5;">
+    <view class="banner-box">
+        <image src="../image/xzhd-banner.png"></image>
+    </view>
+    <view class="main-box">
+        <view class="content-box">
+            <view class="title-txt">基本信息</view>
+            <view class="input-list">
+                <view class="left"><text>*</text>活动名称</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入活动名称"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>团队账号</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入团队账号"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>团队密码</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入团队密码"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>服务对象</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择服务对象"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>服务区域</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择服务区域"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>服务地点</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择服务地点"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>活动开始时间</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择活动开始时间"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>活动结束时间</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择活动结束时间"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>招募开始时间</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择招募开始时间"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>招募结束时间</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择招募结束时间"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>服务类别</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择服务类别"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>志愿者保障</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择志愿者保障"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="textarea-list">
+                <view class="top"><text>*</text>项目概述</view>
+                <view class="bottom">
+                    <textarea placeholder="请输入活动内容"></textarea>
+                </view>
+            </view>
+            <view class="file-box">
+                <view class="top">上传图片</view>
+                <view class="bottom">
+                    <view class="file-btn">
+                        <image src="../image/file.png"></image>
+                    </view>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>志愿者招募范围</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择志愿者招募范围"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>服务要求人数</view>
+                <view class="right">
+                    <input type="number" placeholder="请输入服务要求人数"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left">报名前服务时长要求</view>
+                <view class="right">
+                    <input type="number" placeholder="请输入报名前服务时长要求"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left">不可同时报名ID</view>
+                <view class="right">
+                    <input type="number" placeholder="请输入不可同时报名ID"/>
+                </view>
+            </view>
+            <view class="questions-list">
+                <view class="top">报名提问</view>
+                <view class="bottom"><input type="text" placeholder="请输入报名问题"/></view>
+            </view>
+        </view>
+        <!--岗位信息-->
+        <view class="content-box">
+            <view class="title-txt">岗位信息</view>
+            <view class="input-list">
+                <view class="left">岗位名称</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入岗位名称"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left">岗位人数</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入岗位人数"/>
+                </view>
+            </view>
+            <view class="textarea-list">
+                <view class="top">岗位概述</view>
+                <view class="bottom">
+                    <textarea placeholder="请输入岗位概述"></textarea>
+                </view>
+            </view>
+            <view class="textarea-list">
+                <view class="top">岗位条件</view>
+                <view class="bottom">
+                    <textarea placeholder="请输入岗位条件"></textarea>
+                </view>
+            </view>
+            <view class="add-post">+继续添加</view>
+        </view>
+        <!--预算经费信息-->
+        <view class="content-box">
+            <view class="title-txt">预算经费信息</view>
+            <view class="input-list">
+                <view class="left">来源类型</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择来源类型"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left">来源金额</view>
+                <view class="right">
+                    <input type="number" placeholder="请输入来源金额(元)"/>
+                </view>
+            </view>
+            <view class="add-post">+继续添加</view>
+        </view>
+        <!--联系人信息-->
+        <view class="content-box">
+            <view class="title-txt">联系人信息</view>
+            <view class="input-list">
+                <view class="left"><text>*</text>联系人姓名</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入联系人姓名"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>联系人手机</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入联系人手机"/>
+                </view>
+            </view>
+        </view>
+        <view class="submit-btn">确定</view>
+    </view>
+</view>
+

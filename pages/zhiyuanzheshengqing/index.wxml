@@ -1,0 +1,121 @@
+<!--pages/zhiyuanzheshengqing/index.wxml-->
+<view class="mian-box">
+    <view class="banner-box"><image src="../image/zysq-banner.png"></image></view>
+    <view class="form-box">
+        <view class="form-mian">
+            <view class="input-list">
+                <view class="left"><text>*</text>电子邮箱</view>
+                <view class="right">
+                    <input type="text" bindinput="towWay" data-type="email" value="{{formData.email}}" placeholder="请输入邮箱"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>真实姓名</view>
+                <view class="right">
+                    <input type="text" bindinput="towWay" data-type="volunteerName" value="{{formData.volunteerName}}" placeholder="请输入真实姓名"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>身份证号码</view>
+                <view class="right">
+                    <input type="text" bindinput="towWay" data-type="idCard" value="{{formData.idCard}}" placeholder="请输入身份证号码"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>政治面貌</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择政治面貌"/>
+                    <image src="../image/dayu.png"></image>
+                    <picker bindchange="bindPickerChange" data-type="politics" value="{{index}}" range="{{selct}}">
+                        <view class="picker">1</view>
+                    </picker>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>民族</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择民族"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>籍贯</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择籍贯"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>手机号</view>
+                <view class="right">
+                    <input type="number" placeholder="请输入手机号"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>微博</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入微博号"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>居住区域</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择居住区域"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>详细地址</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入详细地址"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text style="opacity: 0;">*</text>邮编</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入邮编"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>最高学历</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择最高学历"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>从业状态</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择从业状态"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>服务区域</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择服务区域"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list" bindtap="clickManySelct">
+                <view class="left"><text>*</text>服务类别</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择服务类别"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>服务领域行业</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择服务领域行业"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="submit-btn" bindtap="clickSubmit">提交</view>
+            <!--单选下拉-->
+            <!-- <myselct selctval="{{selct}}"></myselct> -->
+            <!--多选下拉-->
+            <multipleChoice wx:if="{{manySelct}}" bind:twoLevelCommentBtn="clickCancel"></multipleChoice>
+        </view>
+    </view>
+</view>

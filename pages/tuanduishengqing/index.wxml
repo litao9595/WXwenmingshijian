@@ -1,0 +1,37 @@
+<!--pages/tuanduishengqing/index.wxml-->
+<view class="main-box">
+    <view class="banner-box"><image src="../image/tdsq-banner.png"></image></view>
+    <view class="add-team" bindtap="apply">
+        <image src="../image/chuangjiantuandui.png"></image>
+        <view>创建团队</view>
+    </view>
+    <view class="content-box">
+        <view class="serch-box">
+            <view class="left">
+                <image class="icon" src="../image/serch.png"></image>
+                <input type="text"/>
+            </view>
+            <view class="right">搜索</view>
+        </view>
+        <view class="team-box">
+            <view class="team-list" bindtap="jumpDetils">
+                <view class="left"><image src="../image/02.png"></image></view>
+                <view class="right">
+                    <view class="title">蓬安县阳光公益协会</view>
+                    <view class="team-txt">团队人数：35</view>
+                    <view class="team-txt">负责人：谭忠碧</view>
+                    <view class="team-txt">联系电话：13808274999</view>
+                </view>
+            </view>
+            <view class="team-list">
+                <view class="left"><image src="../image/02.png"></image></view>
+                <view class="right">
+                    <view class="title">蓬安县阳光公益协会</view>
+                    <view class="team-txt">团队人数：35</view>
+                    <view class="team-txt">负责人：谭忠碧</view>
+                    <view class="team-txt">联系电话：13808274999</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

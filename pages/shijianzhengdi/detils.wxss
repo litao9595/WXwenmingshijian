@@ -1,0 +1,83 @@
+/* pages/shijianzhengdi/detils.wxss */
+.page-body{
+    width:100%;
+}
+.page-body .banner-img image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mian-box{
+    background: #fff;
+    padding: 30rpx;
+    margin-bottom: 20rpx;
+}
+.mian-box .name-txt{
+    font-size: 35rpx;
+}
+.mian-box .derr-box{
+    margin-top: 10rpx;
+    margin-bottom: 50rpx;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+}
+.mian-box .derr-box .place-name{
+    font-size: 25rpx;
+    line-height: 50rpx;
+}
+.mian-box .derr-box .navigation{
+    font-size: 30rpx;
+    line-height: 50rpx;
+}
+.mian-box .derr-box .navigation image{
+    width: 50rpx;
+    height: 50rpx;
+    float: left;
+    margin-right: 10rpx;
+}
+.mian-box .title-box{
+    border-bottom: solid 1rpx #ccc;
+    height: 20rpx;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+}
+.mian-box .title-box .title-name{
+    float: left;
+    background-color: #fff;
+    font-size: 35rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+.mian-box .title-box image{
+    width: 30rpx;
+    height: 30rpx;
+    float: left;
+    margin-top: 5rpx;
+}
+.mian-box .content-txt{
+    font-size: 30rpx;
+    line-height: 40rpx;
+    margin-top: 50rpx;
+}
+.mian-box .img-box{
+    margin-top: 50rpx;
+    height: 400rpx;
+}
+.mian-box .img-box image{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}

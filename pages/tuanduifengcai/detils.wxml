@@ -1,0 +1,64 @@
+<!--pages/tuanduifengcai/detils.wxml-->
+<view class="mian-box">
+    <view class="banner-box"><image src="../image/01.png"></image></view>
+    <view class="team-main">
+        <view class="content-box">
+            <view class="head-box">
+                <view class="left"><image src="../image/02.png"></image></view>
+                <view class="right">
+                    <view class="head-title">蓬安县阳光公益协会</view>
+                    <view class="duration-txt">服务时长：0</view>
+                    <view class="duration-txt">所在地区：南充市-蓬安县</view>
+                </view>
+            </view>
+        </view>
+        <view class="content-box">
+            <view class="text-txt">团队地址：四川省蓬安县相如镇政府街51号</view>
+            <view class="text-txt">团队类型：未登记志愿者服务组织</view>
+            <view class="text-txt">成立时间：2019-03-01</view>
+            <view class="text-txt">挂靠团队：</view>
+            <view class="text-txt">内容描述：关爱服务,应急救援,社区服务,赛会服务</view>
+            <view class="text-txt">成员数量：35</view>
+            <view class="text-txt">活动数量：0</view>
+            <view class="text-txt">联系人：谭忠碧</view>
+            <view class="text-txt">联系电话：0817-8688830</view>
+        </view>
+        <view class="content-box">
+            <view class="icon-title">
+                <view class="left">
+                    <image src="../image/icon-tdjj.png"></image>
+                    <text>团队简介</text>
+                </view>
+            </view>
+            <view class="describe-txt">加纳就撒飒飒飒飒</view>
+        </view>
+        <view class="content-box">
+            <view class="icon-title">
+                <view class="left">
+                    <image src="../image/icon-tdhd.png"></image>
+                    <text>团队活动</text>
+                </view>
+                <view class="right">查看更多<image src="../image/see.png"></image></view>
+            </view>
+        </view>
+        <view class="content-box">
+            <view class="icon-title">
+                <view class="left">
+                    <image src="../image/icon-tdcy.png"></image>
+                    <text>团队成员</text>
+                </view>
+            </view>
+            <view class="volunteer-list">
+                <view class="left">
+                    <view class="avatar-box"><image src="../image/avatar-bg.png"></image></view>
+                    <view class="user-name">谭忠碧</view>
+                </view>
+                <view class="right">服务时长：<text>0小时</text></view>
+            </view>
+        </view>
+        <view class="join-us">
+            <image src="../image/03.png"></image>
+            <view>加入我们</view>
+        </view>
+    </view>
+</view>

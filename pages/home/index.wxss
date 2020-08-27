@@ -1,0 +1,42 @@
+/* pages/home/index.wxss */
+.page-body{
+    width:100%;
+}
+.page-body .banner-img image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu-box{
+    margin-top: -100rpx;
+    padding: 0 30rpx;
+}
+.menu-box .ul-box{
+    overflow: hidden;
+    background: #fff;
+    padding: 20rpx;
+    border-radius: 20rpx;
+    box-sizing: border-box;
+}
+.menu-box .li-box{
+    float: left;
+    width: 125rpx;
+    margin-bottom: 20rpx;
+    margin-right: 5rpx;
+}
+.menu-box .li-box .img-box{
+    width: 100rpx;
+    height: 100rpx;
+    margin: 0 auto;
+}
+.menu-box .li-box .img-box image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.menu-box .li-box .menu-txt{
+    font-size: 22rpx;
+    text-align: center;
+}

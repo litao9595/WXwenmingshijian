@@ -1,0 +1,19 @@
+<!--pages/tuanduishengqing/detils.wxml-->
+<view class="banner-box">
+    <image src="../image/zysq-banner.png"></image>
+</view>
+<view class="main-box">
+    <view class="head-box">
+        <view class="left"><image src="../image/02.png"></image></view>
+        <view class="right">蓬安县阳光公益协会</view>
+    </view>
+    <view class="content-box">
+        <view>团体人数：35人</view>
+        <view>服务总时长：0小时</view>
+        <view>负责人：谭忠碧</view>
+        <view>负责人电话：13808274999</view>
+        <view>成立时间：2019-03-01</view>
+        <view>联络团体：</view>
+    </view>
+    <view class="submit-btn">申请加入</view>
+</view>

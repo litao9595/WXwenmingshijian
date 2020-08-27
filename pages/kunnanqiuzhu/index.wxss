@@ -1,0 +1,80 @@
+/* pages/kunnanqiuzhu/index.wxss */
+.banner-box{
+    height: 400rpx;
+}
+.banner-box image{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.add-seek-help{
+    position: fixed;
+    right: 50rpx;
+    top: 50rpx;
+    z-index: 10;
+    font-size: 30rpx;
+    line-height: 50rpx;
+    background: #ccc;
+    color: #fff;
+    padding: 0rpx 10rpx;
+    border-radius: 30rpx;
+    -webkit-border-radius: 30rpx;
+    -moz-border-radius: 30rpx;
+}
+.content-box{
+    padding: 30rpx;
+    margin-top: -100rpx;
+}
+.content-box .list-box .list-li{
+    padding: 20rpx;
+    border-radius: 20rpx;
+    -webkit-border-radius: 20rpx;
+    -moz-border-radius: 20rpx;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    margin-bottom: 30rpx;
+}
+.content-box .list-box .list-li .left{
+    width: 200rpx;
+    height: 200rpx;
+    overflow: hidden;
+}
+.content-box .list-box .list-li .left image{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.content-box .list-box .list-li .right{
+    width: calc(100% - 220rpx);
+}
+.content-box .list-box .list-li .right .title{
+    font-size: 35rpx;
+    font-weight: bold;
+    line-height: 40rpx;
+    margin-bottom: 20rpx;
+    margin-top: 30rpx;
+}
+.content-box .list-box .list-li .right .title text{
+    font-size: 20rpx;
+    color: #566eff;
+    background: #ecf2ff;
+    padding: 10rpx 20rpx;
+    margin-left: 20rpx;
+    border-radius: 20rpx;
+    -webkit-border-radius:20rpx;
+    -moz-border-radius: 20rpx;
+}
+.content-box .list-box .list-li .right .txt{
+    font-size: 30rpx;
+    color: #4d4d4d;
+}

@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/zhiyuanzheshengqing/index",
+    "pages/home/index",
+    
+    "pages/tuanduishengqing/index",
+    "pages/tuanduishengqing/detils",
+    "pages/tuanduishengqing/apply",
+    "pages/kunnanqiuzhu/index",
+    "pages/kunnanqiuzhu/detils",
+    "pages/kunnanqiuzhu/releaseHelp",
+    "pages/baixingdiandan/index",
+    "pages/baixingdiandan/detils",
+    "pages/weixingyuan/index",
+    "pages/zhiyuanhuodong/index",
+    "pages/zhiyuanhuodong/detils",
+    "pages/zhiyuanhuodong/addActivity",
+    "pages/tuanduifengcai/index",
+    "pages/tuanduifengcai/detils",
+    "pages/shijianzhengdi/index",
+    "pages/shijianzhengdi/detils",
+    "pages/wode/index",
+    "pages/wode/detils",
+    
+
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

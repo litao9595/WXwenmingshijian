@@ -1,0 +1,68 @@
+/* pages/wode/detils.wxss */
+.mian-box{
+    padding: 30rpx;
+    background-color: #f5f5f5;
+}
+.detisl-content{
+    background: #fff;
+    padding: 20rpx;
+    border-radius: 20rpx;
+    -webkit-border-radius: 20rpx;
+    -moz-border-radius: 20rpx;
+    margin-bottom: 30rpx;
+}
+.detisl-content .title{
+    font-size: 35rpx;
+    font-weight: bold;
+    line-height: 40rpx;
+    margin-bottom: 20rpx;
+}
+.detisl-content .title text{
+    font-size: 20rpx;
+    color: #566eff;
+    background: #ecf2ff;
+    padding: 10rpx 20rpx;
+    margin-left: 20rpx;
+    border-radius: 20rpx;
+    -webkit-border-radius: 20rpx;
+    -moz-border-radius: 20rpx;
+}
+.detisl-content .txt-box{
+    font-size: 30rpx;
+    line-height: 50rpx;
+}
+.detisl-content .map-box{
+    height: 500rpx;
+    background: #ccc;
+    margin-top: 30rpx;
+}
+.detisl-content .title-2{
+    font-size: 30rpx;
+    font-weight: bold;
+    border-left: solid 10rpx #ff8a8a;
+    padding-left: 15rpx;
+}
+.detisl-content .details-img{
+    margin-top: 30rpx;
+    font-size: 30rpx;
+}
+.detisl-content .details-img-box{
+    height: 400rpx;
+    margin-top: 30rpx;
+}
+.detisl-content .details-img-box image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.submit-btn{
+    background: #ff7070;
+    line-height: 80rpx;
+    text-align: center;
+    color: #fff;
+    font-size: 35rpx;
+    border-radius: 40rpx;
+    -webkit-border-radius: 40rpx;
+    -moz-border-radius: 40rpx;
+}

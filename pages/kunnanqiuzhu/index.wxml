@@ -1,0 +1,17 @@
+<!--pages/kunnanqiuzhu/index.wxml-->
+<view class="banner-box">
+    <image src="../image/knqz-banner.png"></image>
+</view>
+<view class="add-seek-help" bindtap="addHelp">发起求助</view>
+<view class="content-box">
+    <view class="list-box">
+        <view class="list-li" bindtap="jumpDetils">
+            <view class="left"><image src="../image/img-bg.png"></image></view>
+            <view class="right">
+                <view class="title">代养宠物<text>待接单</text></view>
+                <view class="txt">地址：全部机构-蓬安县-鲜店乡-建设街社区</view>
+                <view class="txt">详细地址：</view>
+            </view>
+        </view>
+    </view>
+</view>

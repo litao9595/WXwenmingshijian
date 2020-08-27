@@ -1,0 +1,101 @@
+/* pages/tuanduishengqing/apply.wxss */
+.mian-box{
+    background: #f5f5f5;
+}
+.mian-box .banner-box{
+    height: 400rpx;
+}
+.mian-box .banner-box image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mian-box .form-box{
+    padding:0rpx 30rpx;
+    margin-top: -120rpx;
+}
+.mian-box .form-box .form-mian{
+    padding: 30rpx;
+    background: #fff;
+}
+.mian-box .form-box .form-mian .input-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    border-bottom: solid 1rpx #e6e6e6;
+}
+.mian-box .form-box .form-mian .input-list .left{
+    font-size: 30rpx;
+    line-height: 80rpx;
+}
+.mian-box .form-box .form-mian .input-list .left text{
+    color: #ff6868;
+}
+.mian-box .form-box .form-mian .input-list .right{
+    font-size:30rpx;
+    width: calc(100% - 280rpx);
+    height: 80rpx;
+    line-height: 80rpx;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.mian-box .form-box .form-mian .input-list .right input{
+    display: block;
+    height: 80rpx;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 30rpx;
+    border: none;
+    outline: none;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: none;
+}
+.mian-box .form-box .form-mian .input-list .right-selct{
+    padding-right: 30rpx;
+    position: relative;
+}
+.mian-box .form-box .form-mian .input-list .right-selct image{
+    position: absolute;
+    right: 0rpx;
+    top:20rpx;
+    width: 30rpx;
+    height: 40rpx;
+}
+.mian-box .form-box .form-mian .submit-btn{
+    background: #ff7070;
+    line-height: 80rpx;
+    text-align: center;
+    color: #fff;
+    font-size: 35rpx;
+    border-radius: 40rpx;
+    -webkit-border-radius: 40rpx;
+    -moz-border-radius: 40rpx;
+    margin-top: 30rpx;
+}
+.mian-box .form-box .form-mian .textarea-list{
+    font-size: 0.3rem;
+}
+.mian-box .form-box .form-mian .textarea-list .top{
+    line-height: 80rpx;
+}
+.mian-box .form-box .form-mian .textarea-list .bottom textarea{
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid 1rpx #e8e8e8;
+    padding: 30rpx;
+    height: 220rpx;
+    font-size: 30rpx;
+}

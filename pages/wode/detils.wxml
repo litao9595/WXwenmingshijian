@@ -1,0 +1,18 @@
+<!--pages/wode/detils.wxml-->
+<view class="mian-box">
+    <view class="detisl-content">
+        <view class="title">苹果求助<text>待确认</text></view>
+        <view class="txt-box">类型：投诉</view>
+        <view class="txt-box">联系人：苹果求助</view>
+        <view class="txt-box">联系电话：17761223792</view>
+        <view class="txt-box">所属区域：全部机构</view>
+        <view class="txt-box">详细地址：四川省成都市锦江区燕鲁公所街6号</view>
+        <view class="map-box"></view>
+    </view>
+    <view class="detisl-content">
+        <view class="title-2">活动介绍</view>
+        <view class="details-img">苹果求助</view>
+        <view class="details-img-box"><image src="../image/01.png"></image></view>
+    </view>
+    <view class="submit-btn">确定</view>
+</view>

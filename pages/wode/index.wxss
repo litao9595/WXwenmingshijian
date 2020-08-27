@@ -1,0 +1,164 @@
+/* pages/wode/index.wxss */
+.bg-img{
+    height: 600rpx;
+}
+.bg-img image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.hede-box{
+    padding: 30rpx;
+    margin-top: -600rpx;
+}
+.hede-box .user-info{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+}
+.hede-box .user-info .left{
+    width: 100rpx;
+    height: 100rpx;
+    overflow: hidden;
+    border-radius: 100rpx;
+    -webkit-border-radius: 100rpx;
+}
+.hede-box .user-info .left image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.hede-box .user-info .right{
+    font-size: 35rpx;
+    color: #fff;
+    margin-left: 50rpx;
+}
+.hede-box .user-information{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    margin-top: 50rpx;
+}
+.hede-box .user-information>view{
+    color: #fff;
+    text-align: center;
+}
+.hede-box .user-information>view text{
+    font-size: 30rpx;
+}
+.hede-box .user-information>view view{
+    font-size: 20rpx;
+}
+.hede-box .nav-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    color: #fff;
+    margin-top: 50rpx;
+    font-size: 30rpx;
+}
+.hede-box .nav-box view{
+    margin-right: 90rpx;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 30rpx;
+}
+.hede-box .nav-box .active{
+    border-bottom: solid 4rpx #ff5a44;
+}
+.hede-box .task-box{
+    padding: 30rpx;
+}
+.hede-box .task-box .task-list{
+    padding:20rpx;
+    background: #fff;
+    margin-bottom: 30rpx;
+    border-radius: 20rpx;
+    -webkit-border-radius: 20rpx;
+    -moz-border-radius: 20rpx;
+}
+.hede-box .task-box .task-list .top-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+}
+.hede-box .task-box .task-list .top-box .label{
+    font-size: 20rpx;
+    color: #cd6b68;
+    line-height: 50rpx;
+    border: solid 1rpx #cd6b68;
+    padding: 0rpx 20rpx;
+    border-radius: 10rpx;
+    -webkit-border-radius: 10rpx;
+    -moz-border-radius: 10rpx;
+}
+.hede-box .task-box .task-list .top-box .title-txt{
+    font-size: 35rpx;
+    margin-left: 20rpx;
+    line-height: 50rpx;
+    width: 330rpx;
+    height: 50rpx;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.hede-box .task-box .task-list .top-box .state-box{
+    font-size: 20rpx;
+    color: #00bffe;
+    background: #ecf2ff;
+    line-height: 50rpx;
+    padding: 0rpx 20rpx;
+    margin-left: 20rpx;
+    border-radius: 30rpx;
+    -webkit-border-radius: 30rpx;
+    -moz-border-radius: 30rpx;
+}
+.hede-box .task-box .task-list .bottom-box{
+    margin-top: 20rpx;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+}
+.hede-box .task-box .task-list .bottom-box .left{
+    width: 500rpx;
+}
+.hede-box .task-box .task-list .bottom-box .left .txt-p{
+    font-size: 30rpx;
+}
+.hede-box .task-box .task-list .bottom-box .right text{
+    display: block;
+    line-height: 50rpx;
+    font-size: 30rpx;
+    padding: 0rpx 20rpx;
+    background: #ff7900;
+    color: #fff;
+    border-radius: 20rpx;
+}

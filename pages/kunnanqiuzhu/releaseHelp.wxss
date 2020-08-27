@@ -1,0 +1,142 @@
+/* pages/kunnanqiuzhu/releaseHelp.wxss */
+.banner-box{
+    height: 400rpx;
+}
+.banner-box image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.seek-help-main{
+    padding: 30rpx;
+    margin-top: -100rpx;
+}
+.seek-help-main .help-content-box{
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10rpx;
+    -webkit-border-radius: 10rpx;
+    -moz-border-radius: 10rpx;
+    margin-bottom: 30rpx;
+    padding: 30rpx;
+}
+.seek-help-main .help-content-box .input-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    border-bottom: solid 1rpx #e6e6e6;
+}
+.seek-help-main .help-content-box .input-list .left{
+    font-size: 30rpx;
+    line-height: 80rpx;
+}
+.seek-help-main .help-content-box .input-list .left text{
+    color: #ff6868;
+}
+.seek-help-main .help-content-box .input-list .right{
+    font-size:30rpx;
+    width: calc(100% - 280rpx);
+    height: 80rpx;
+    line-height: 80rpx;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.seek-help-main .help-content-box .input-list .right input{
+    display: block;
+    height: 80rpx;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 30rpx;
+    border: none;
+    outline: none;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: none;
+}
+.seek-help-main .help-content-box .input-list .right-selct{
+    padding-right: 30rpx;
+    position: relative;
+}
+.seek-help-main .help-content-box .input-list .right-selct image{
+    position: absolute;
+    right: 0rpx;
+    top:20rpx;
+    width: 30rpx;
+    height: 40rpx;
+}
+.seek-help-main .help-content-box .textarea-list{
+    font-size: 30rpx;
+}
+.seek-help-main .help-content-box .textarea-list .top{
+    line-height: 80rpx;
+}
+.seek-help-main .help-content-box .textarea-list .top text{
+    color: #ff6868;
+}
+.seek-help-main .help-content-box .textarea-list .bottom textarea{
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid 1rpx #e8e8e8;
+    padding: 30rpx;
+    height: 220rpx;
+}
+.seek-help-main .help-content-box .switch-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    font-size: 30rpx;
+    margin-top: 30rpx;
+}
+.seek-help-main .help-content-box .file-box .top{
+    font-size: 30rpx;
+    line-height: 80rpx;
+}
+.seek-help-main .help-content-box .file-box .bottom{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+}
+.seek-help-main .help-content-box .file-box .bottom>view{
+    width: 100rpx;
+    height: 100rpx;
+    position: relative;
+    margin-right: 30rpx;
+}
+.seek-help-main .help-content-box .file-box .bottom .file-btn{
+    overflow: hidden;
+}
+.seek-help-main .help-content-box .file-box .bottom .file-btn image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.submit-btn{
+    background: #ff7070;
+    line-height: 80rpx;
+    text-align: center;
+    color: #fff;
+    font-size: 35rpx;
+    border-radius: 40rpx;
+    -webkit-border-radius: 40rpx;
+    -moz-border-radius: 40rpx;
+}

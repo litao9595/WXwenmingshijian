@@ -1,0 +1,58 @@
+<!--pages/zhiyuanhuodong/index.wxml-->
+<view class="mian-box">
+    <view class="add-btn">
+        <text bindtap="addActivity">发起活动</text>
+    </view>
+    <view class="serch-box">
+        <view class="left">
+            <image src="../image/serch.png"></image>
+            <input type="text" placeholder="搜索活动名称/团队名称"/>
+        </view>
+        <view class="right">搜索</view>
+    </view>
+    <view class="whole-box">
+        <view class="left">全部</view>
+        <view class="content-txt"></view>
+        <view class="right"><image src="../image/whole.png"></image></view>
+    </view>
+    <view class="screen-box">
+        <view class="state-box">
+            <text>活动状态</text>
+            <image src="../image/selct.png"></image>
+        </view>
+        <view class="state-box">
+            <text>选择日期</text>
+            <image src="../image/selct.png"></image>
+        </view>
+        <view class="empty-box">清空</view>
+    </view>
+    <view class="list-box" bindtap="jumpDetils">
+        <view class="title-box">苹果志愿者活动<text>招募结束</text></view>
+        <view class="text-box">
+            <view class="left">团队名称：</view>
+            <view class="right">苹果志愿者团队</view>
+        </view>
+        <view class="text-box">
+            <view class="left">招募人数：</view>
+            <view class="right"><text>1</text>/36</view>
+        </view>
+        <view class="text-box-2">
+            <view class="left">招募结束时间：</view>
+            <view class="right">
+                <text>0</text>天
+                <text>0</text>时
+                <text>0</text>分
+            </view>
+        </view>
+        <view class="text-box">
+            <view class="left">活动时间：</view>
+            <view class="right">2020-07-21 至 2020-07-21</view>
+        </view>
+        <view class="text-box">
+            <view class="left">活动地址：</view>
+            <view class="right">天华一路99号</view>
+        </view>
+
+    </view>
+
+</view>

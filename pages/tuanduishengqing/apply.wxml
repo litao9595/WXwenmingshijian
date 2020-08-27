@@ -1,0 +1,132 @@
+<!--pages/tuanduishengqing/apply.wxml-->
+<view class="mian-box">
+    <view class="banner-box">
+        <image src="../image/tdsq-banner.png"></image>
+    </view>
+    <view class="form-box">
+        <view class="form-mian">
+            <view class="input-list">
+                <view class="left"><text>*</text>电子邮箱</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入邮箱"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>志愿团队名称</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入志愿团队名称"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>登记状态</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择登记状态"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>联络团体</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择联络团体"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>团队编号</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入团队编号"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>主管单位类型</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择主管单位类型"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>主管单位名称</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入主管单位名称"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>服务区域</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择服务区域"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>详细地址</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入详细地址"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>邮编</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入邮编"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>成立日期</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择成立日期"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>志愿者人数</view>
+                <view class="right">
+                    <input type="number" placeholder="请输入志愿者人数"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>服务类别</view>
+                <view class="right right-selct">
+                    <input type="text" disabled placeholder="请选择服务类别"/>
+                    <image src="../image/dayu.png"></image>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>联系人姓名</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入联系人姓名"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>联系人手机</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入联系人手机"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>负责人姓名</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入负责人姓名"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>负责人手机</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入负责人手机"/>
+                </view>
+            </view>
+            <view class="input-list">
+                <view class="left"><text>*</text>负责人身份证</view>
+                <view class="right">
+                    <input type="text" placeholder="请输入负责人身份证"/>
+                </view>
+            </view>
+            <view class="textarea-list">
+                <view class="top">团队简介</view>
+                <view class="bottom">
+                    <textarea placeholder="请输入团队简介"></textarea>
+                </view>
+            </view>
+            <view class="submit-btn">提交</view>
+        </view>
+    </view>
+</view>
+

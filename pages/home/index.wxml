@@ -1,0 +1,42 @@
+<!--pages/home/index.wxml-->
+<view class="container">
+    <view class="page-body">
+      <view class="page-section page-section-spacing swiper">
+        <swiper
+          autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <swiper-item class="banner-img">
+                <image src="../image/bg-banner1.png"></image>
+            </swiper-item>
+            <swiper-item>
+                <image src="../image/bg-banner2.png"></image>
+            </swiper-item>
+            <swiper-item>
+                <image src="../image/bg-banner3.png"></image>
+            </swiper-item>
+            <swiper-item>
+                <image src="../image/bg-banner4.png"></image>
+            </swiper-item>
+        </swiper>
+      </view>
+    </view>
+    <!--菜单-->
+    <view class="menu-box">
+        <view class="page-section page-section-spacing swiper">
+            <swiper indicator-dots="{{indicatorDots}}" interval="{{interval}}" duration="{{duration}}">
+                <swiper-item class="ul-box">
+                    <view bindtap="bindViewTap" data-index="{{index}}" class="li-box" wx:for="{{menu}}" wx:key="*this">
+                        <view class="img-box"><image src="{{item.img}}"></image></view>
+                        <view class="menu-txt">{{item.name}}</view>
+                    </view>
+                </swiper-item>
+                <swiper-item class="ul-box">
+                    <view class="li-box">
+                        <view class="img-box"><image src="../image/icon-zhengdihuodong.png"></image></view>
+                        <view class="menu-txt">活动阵地</view>
+                    </view>
+                </swiper-item>
+        </swiper>
+        </view>
+    </view>
+  </view>
+  

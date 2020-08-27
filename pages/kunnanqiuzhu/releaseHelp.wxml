@@ -1,0 +1,82 @@
+<!--pages/kunnanqiuzhu/releaseHelp.wxml-->
+<view class="banner-box">
+    <image src="../image/qzzx-banner.png"></image>
+</view>
+<view class="seek-help-main">
+    <view class="help-content-box">
+        <view class="input-list">
+            <view class="left"><text>*</text>主题</view>
+            <view class="right">
+                <input type="text" placeholder="请输入主题"/>
+            </view>
+        </view>
+        <view class="input-list">
+            <view class="left"><text>*</text>类型</view>
+            <view class="right right-selct">
+                <input type="text" disabled placeholder="请选择类型"/>
+                <image src="../image/dayu.png"></image>
+            </view>
+        </view>
+        <view class="input-list">
+            <view class="left"><text>*</text>所属区域</view>
+            <view class="right right-selct">
+                <input type="text" disabled placeholder="请选择所属区域"/>
+                <image src="../image/dayu.png"></image>
+            </view>
+        </view>
+        <view class="input-list">
+            <view class="left"><text>*</text>详细地址</view>
+            <view class="right right-selct">
+                <input type="text" disabled placeholder="请选择详细地址"/>
+                <image src="../image/dayu.png"></image>
+            </view>
+        </view>
+        <view class="input-list">
+            <view class="left"><text>*</text>联系人</view>
+            <view class="right">
+                <input type="text" placeholder="请输入联系人"/>
+            </view>
+        </view>
+        <view class="input-list">
+            <view class="left"><text>*</text>联系电话</view>
+            <view class="right">
+                <input type="text" placeholder="请输入联系电话"/>
+            </view>
+        </view>
+    </view>
+    <view class="help-content-box">
+        <view class="textarea-list">
+            <view class="top"><text>*</text>内容</view>
+            <view class="bottom">
+                <textarea placeholder="请输入内容详情"></textarea>
+            </view>
+        </view>
+        <view class="switch-box">
+            <view class="left">上传图片视频</view>
+            <view class="right">
+                <switch style="zoom:0.6" checked="{{switch1Checked}}" bindchange="switch1Change"/>
+            </view>
+        </view>
+    </view>
+    <view class="help-content-box" wx:if="{{fileBox}}">
+        <view class="file-box">
+            <view class="top">上传图片</view>
+            <view class="bottom">
+                <view class="file-btn">
+                    <image src="../image/file.png"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="help-content-box" wx:if="{{fileBox}}">
+        <view class="file-box">
+            <view class="top">上传视频</view>
+            <view class="bottom">
+                <view class="file-btn">
+                    <image src="../image/file.png"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="submit-btn">确定</view>
+</view>

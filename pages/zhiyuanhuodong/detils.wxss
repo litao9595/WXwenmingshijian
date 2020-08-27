@@ -1,0 +1,160 @@
+/* pages/zhiyuanhuodong/detils.wxss */
+.mian-box{
+    background-color: #f5f5f5;
+}
+.mian-box .banner-box{
+    height: 400rpx;
+}
+.mian-box .banner-box image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mian-box .content-mian{
+    padding: 30rpx;
+    margin-top: -100rpx;
+}
+.mian-box .content-box{
+    background: #fff;
+    padding: 20rpx;
+    margin-bottom: 20rpx;
+    border-radius: 20rpx;
+    -webkit-border-radius: 20rpx;
+    -moz-border-radius: 20rpx;
+}
+.mian-box .content-box .title-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+}
+.mian-box .content-box .title-box .left{
+    font-size: 35rpx;
+}
+.mian-box .content-box .title-box .right{
+    font-size: 25rpx;
+    margin-left: 30rpx;
+    background: #ecf2ff;
+    color: #566eff;
+    padding: 5rpx 20rpx;
+    border-radius: 20rpx;
+    -webkit-border-radius: 20rpx;
+    -moz-border-radius: 20rpx;
+}
+.mian-box .content-box .text-box{
+    font-size: 30rpx;
+    line-height: 50rpx;
+}
+.mian-box .content-box .text-box text{
+    color: #ff8181;
+}
+.mian-box .content-box .map-box{
+    height: 500rpx;
+    background: rgb(204, 204, 204);
+    margin-top: 20rpx;
+}
+.mian-box .content-box .title-2{
+    font-size: 35rpx;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20rpx;
+    border-left: solid 10rpx #ff8181;
+    line-height: 40rpx;
+    overflow: hidden;
+}
+.mian-box .content-box .biaoqian{
+    overflow: hidden;
+    padding-top: 20rpx;
+}
+.mian-box .content-box .biaoqian .biaoqian-li{
+    float: left;
+    font-size: 25rpx;
+    line-height: 50rpx;
+    background: #668eff;
+    padding: 0rpx 20rpx;
+    border-radius: 10rpx;
+    -webkit-border-radius: 10rpx;
+    -moz-border-radius: 10rpx;
+    color: #fff;
+    margin-right: 20rpx;
+}
+.mian-box .content-box .title-2{
+    font-size: 35rpx;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20rpx;
+    border-left: solid 10rpx #ff8181;
+    line-height: 40rpx;
+    display: flex;
+    justify-content: space-between;
+}
+.mian-box .content-box .title-2 .right{
+    float: right;
+    color: #999999;
+}
+.mian-box .content-box .title-2 .right image{
+    float:right;
+    width: 40rpx;
+    height: 20rpx;
+    margin-top: 10rpx;
+}
+.mian-box .content-box .volunteer-list{
+    padding: 20rpx;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+}
+.mian-box .content-box .volunteer-list .avatar-box{
+    float: left;
+    width: 100rpx;
+    height: 100rpx;
+}
+.mian-box .content-box .volunteer-list .avatar-box image{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.mian-box .content-box .volunteer-list .user-name{
+    float: left;
+    font-size: 35rpx;
+    line-height: 100rpx;
+    margin-left: 20rpx;
+    width: 250rpx;
+    height: 100rpx;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.mian-box .content-box .volunteer-list .right{
+    font-size: 30rpx;
+    line-height: 100rpx;
+}
+.mian-box .content-box .volunteer-list .right text{
+    color: #ff7070;
+}
+.submit-btn{
+    background: #ff7070;
+    line-height: 80rpx;
+    text-align: center;
+    color: #fff;
+    font-size: 35rpx;
+    border-radius: 40rpx;
+    -webkit-border-radius: 40rpx;
+    -moz-border-radius: 40rpx;
+    margin-top: 30rpx;
+    margin-top: 50rpx;
+}

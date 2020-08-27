@@ -1,0 +1,66 @@
+/* pages/weixingyuan/index.wxss */
+.bg-box{
+    position: fixed;
+    left: 0rpx;
+    top:0rpx;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.bg-box image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.wxy-main{
+    padding: 30rpx;
+}
+.wxy-main .wxy-content{
+    background: #fff;
+    padding: 20rpx;
+    border-radius: 20rpx;
+    -webkit-border-radius: 20rpx;
+    -moz-border-radius: 20rpx;
+}
+.wxy-main .wxy-content .list-box{
+    overflow: hidden;
+}
+.wxy-main .wxy-content .list-box .list-li{
+    padding: 20rpx;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 310rpx;
+    overflow: hidden;
+    margin-bottom: 30rpx;
+    box-shadow: 0rpx 0rpx 10rpx #ccc;
+    -webkit-box-shadow: 0rpx 0rpx 10rpx #ccc;
+    -moz-box-shadow: 0rpx 0rpx 10rpx #ccc;
+    border-radius: 20rpx;
+    -webkit-border-radius: 20rpx;
+    -moz-border-radius: 20rpxs;
+}
+.wxy-main .wxy-content .list-box .list-li:nth-child(2n-1){
+    margin-right: 30rpx;
+}
+.wxy-main .wxy-content .list-box .list-li .img-box{
+    height: 300rpx;
+    overflow: hidden;
+}
+.wxy-main .wxy-content .list-box .list-li .img-box image{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.wxy-main .wxy-content .list-box .list-li .txt{
+    font-size: 30rpx;
+    line-height: 40rpx;
+    height: 40rpx;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    margin-top: 10rpx;
+}

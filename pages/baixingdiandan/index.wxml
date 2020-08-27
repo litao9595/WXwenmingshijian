@@ -1,0 +1,31 @@
+<!--pages/baixingdiandan/index.wxml-->
+<view class="mian-box">
+    <view class="baner-box">
+        <image src="../image/bxdd-banner.png"></image>
+    </view>
+    <view class="bxdd-main">
+        <view class="bxdd-content">
+            <view class="list-box">
+                <view class="list-li" bindtap="jumpDetils">
+                    <view class="img-box">
+                        <image src="../image/01.png"></image>
+                    </view>
+                    <view class="txt">坝子活动</view>
+                </view>
+                <view class="list-li">
+                    <view class="img-box">
+                        <image src="../image/01.png"></image>
+                    </view>
+                    <view class="txt">坝子活动</view>
+                </view>
+                <view class="list-li">
+                    <view class="img-box">
+                        <image src="../image/01.png"></image>
+                    </view>
+                    <view class="txt">坝子活动</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+

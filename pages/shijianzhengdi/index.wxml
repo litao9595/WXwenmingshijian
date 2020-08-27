@@ -1,0 +1,26 @@
+<!--pages/shijianzhengdi/index.wxml-->
+<view class="mian-box">
+    <view class="map-box">
+        <map id="map" longitude="113.324520" latitude="23.099994" scale="14" 
+        markers="{{markers}}" bindlabeltap="jumpDetils" show-location style="width: 100%; height: 100%;"></map>
+    </view>
+    <view class="zhengdi-main">
+        <view class="serch-box">
+            <view class="left">
+                <image src="../image/serch.png"></image>
+                <input type="text" placeholder="请输入站点名称搜索"/>
+            </view>
+            <view class="right">搜索</view>
+        </view>
+        <view class="list-box">
+            <view class="left">
+                <view class="txt-1">巨龙镇</view>
+                <view class="txt-2">地址：四川省南充市蓬安县</view>
+            </view>
+            <view class="right">
+                <image src="../image/route.png"></image>
+                <view>路线</view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,49 @@
+<!--pages/shijianzhengdi/detils.wxml-->
+<view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <swiper-item class="banner-img">
+                <image src="../image/bg-banner1.png"></image>
+            </swiper-item>
+            <swiper-item>
+                <image src="../image/bg-banner2.png"></image>
+            </swiper-item>
+            <swiper-item>
+                <image src="../image/bg-banner3.png"></image>
+            </swiper-item>
+            <swiper-item>
+                <image src="../image/bg-banner4.png"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+</view>
+<view class="mian-box">
+    <view class="name-txt">巨龙镇</view>
+    <view class="derr-box">
+        <view class="place-name">四川省南充市蓬安县</view>
+        <view class="navigation">
+            <image src="../image/icon-qzl.png"></image>
+            去这里
+        </view>
+        <view class="navigation">
+            <image src="../image/icon-lxwm.png"></image>
+            联系我们
+        </view>
+    </view>
+    <view class="title-box">
+        <image src="../image/icon-title.png"></image>
+        <view class="title-name">站所介绍</view>
+    </view>
+    <view class="content-txt">觉得萨达就是点击撒娇的撒基督教萨达就撒觉得萨达</view>
+</view>
+<view class="mian-box">
+    <view class="title-box">
+        <image src="../image/icon-title.png"></image>
+        <view class="title-name">巨龙镇风采</view>
+    </view>
+    <view class="img-box"><image src="../image/01.png"></image></view>
+    <view class="title-box" style="margin-top: 50rpx;">
+        <image src="../image/icon-title.png"></image>
+        <view class="title-name">阵地活动</view>
+    </view>
+</view>

@@ -1,0 +1,23 @@
+<!--pages/tuanduifengcai/index.wxml-->
+<view class="list-box">
+    <view class="list-li" bindtap="jumpDetils">
+        <view class="cover-img"><image src="../image/02.png"></image></view>
+        <view class="list-txt-box">
+            <view class="team-txt">蓬安县阳光公益协会</view>
+            <view class="location-box">
+                <image class="left" src="../image/location.png"></image>
+                <view class="right">南充市-蓬安县</view>
+            </view>
+        </view>
+    </view>
+    <view class="list-li">
+        <view class="cover-img"><image src="../image/02.png"></image></view>
+        <view class="list-txt-box">
+            <view class="team-txt">蓬安县阳光公益协会</view>
+            <view class="location-box">
+                <image class="left" src="../image/location.png"></image>
+                <view class="right">南充市-蓬安县</view>
+            </view>
+        </view>
+    </view>
+</view>

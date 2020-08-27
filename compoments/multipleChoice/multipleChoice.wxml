@@ -1,0 +1,14 @@
+<!--compoments/multipleChoice/multipleChoice.wxml-->
+<view class="selct-mian">
+    <view class="selct-contnet">
+        <view class="selct-head">
+            <view class="cancel" bindtap="clickCancel">取消</view>
+            <view class="confirm" bindtap="clickConfirm">确认</view>
+        </view>
+        <view class="list-ul">
+            <view bindtap="clickChoice" class="{{item.status?'active':''}}" data-index="{{index}}" wx:for="{{list}}" wx:key="name">
+                {{item.name}}
+            </view>
+        </view>
+    </view>
+</view>

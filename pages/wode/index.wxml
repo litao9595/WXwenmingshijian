@@ -1,0 +1,43 @@
+<!--pages/wode/index.wxml-->
+<view class="bg-img"><image src="../image/wode-banner.png"></image></view>
+<view class="hede-box">
+    <view class="user-info">
+        <view class="left"><image src="../image/avatar-bg.png"></image></view>
+        <view class="right">苹果</view>
+    </view>
+    <view class="user-information">
+        <view>
+            <text>0小时</text>
+            <view>服务时长</view>
+        </view>
+        <view>
+            <text>17761223792</text>
+            <view>电话</view>
+        </view>
+        <view>
+            <text>2020-07-20</text>
+            <view>申请时间</view>
+        </view>
+    </view>
+    <view class="nav-box">
+        <view class="active">接收的任务</view>
+        <view>发布的任务</view>
+    </view>
+    <view class="task-box">
+        <view class="task-list" bindtap="jumpDetils">
+            <view class="top-box">
+                <view class="label">困难求助</view>
+                <view class="title-txt">苹果求助</view>
+                <view class="state-box">待确认</view>
+            </view>
+            <view class="bottom-box">
+                <view class="left">
+                    <view class="txt-p">团队名称：苹果求助</view>
+                    <view class="txt-p">时间：2020-07-20 14:32:51</view>
+                    <view class="txt-p">详细地址：四川省成都市锦江区燕鲁公所街6号</view>
+                </view>
+                <view class="right"><text>确定</text></view>
+            </view>
+        </view>
+    </view>
+</view>

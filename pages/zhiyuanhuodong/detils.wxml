@@ -1,0 +1,51 @@
+<!--pages/zhiyuanhuodong/detils.wxml-->
+<view class="mian-box">
+    <view class="banner-box">
+        <image src="../image/fwhd-banner.png"></image>
+    </view>
+    <view class="content-mian">
+        <view class="content-box">
+            <view class="title-box">
+                <view class="left">苹果志愿者活动</view>
+                <view class="right">活动中</view>
+            </view>
+            <view class="text-box">所在地区：南充市-蓬安县-鲜店乡-建设街社区</view>
+            <view class="text-box">招募人数：<text>1</text>/36</view>
+        </view>
+        <view class="content-box">
+            <view class="text-box">服务类型：城市运行,社区服务,医疗卫生,矛盾化解</view>
+            <view class="text-box">服务对象：青少年,优抚对象</view>
+            <view class="text-box">公开范围：公开招募</view>
+            <view class="text-box">服务时长：</view>
+            <view class="text-box">签到方式：定位签到</view>
+            <view class="text-box">联系人：苹果</view>
+            <view class="text-box">联系电话：17761223792</view>
+            <view class="text-box">报名时间：2020.07.20-2020.07.20</view>
+            <view class="text-box">活动时间：2020.07.21-2020.07.21</view>
+            <view class="text-box">活动地址：天华一路99号</view>
+            <view class="map-box"></view>
+        </view>
+        <view class="content-box">
+            <view class="title-2">活动介绍</view>
+            <view class="text-box" style="padding:20rpx 0rpx">都投哦堵堵</view>
+            <view class="title-2">招募条件</view>
+            <view class="biaoqian">
+                <view class="biaoqian-li">公开招募</view>
+            </view>
+        </view>
+        <view class="content-box">
+            <view class="title-2">
+                <view class="left">活动介绍</view>
+                <view class="right">查看所有<image src="../image/see.png"></image></view>
+            </view>
+            <view class="volunteer-list">
+                <view class="left">
+                    <view class="avatar-box"><image src="../image/avatar-bg.png"></image></view>
+                    <view class="user-name">苹果</view>
+                </view>
+                <view class="right">服务时长：<text>0小时</text></view>
+            </view>
+        </view>
+        <view class="submit-btn">确定</view>
+    </view>
+</view>

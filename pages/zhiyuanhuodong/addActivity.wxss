@@ -1,0 +1,157 @@
+/* pages/zhiyuanhuodong/addActivity.wxss */
+.banner-box{
+    height: 400rpx;
+}
+.banner-box image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-box{
+    padding: 30rpx;
+    margin-top: -280rpx;
+}
+.main-box .content-box{
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10rpx;
+    -webkit-border-radius: 10rpx;
+    -moz-border-radius: 10rpx;
+    margin-bottom: 30rpx;
+    padding: 30rpx;
+}
+.main-box .content-box .title-txt{
+    font-size: 30rpx;
+    font-weight: bold;
+    text-align: center;
+}
+.main-box .content-box  .input-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    border-bottom: solid 1rpx #e6e6e6;
+}
+.main-box .content-box  .input-list .left{
+    font-size: 30rpx;
+    line-height: 80rpx;
+}
+.main-box .content-box .input-list .left text{
+    color: #ff6868;
+}
+.main-box .content-box .input-list .right{
+    font-size:30rpx;
+    width: calc(100% - 280rpx);
+    height: 80rpx;
+    line-height: 80rpx;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.main-box .content-box .input-list .right input{
+    display: block;
+    height: 80rpx;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 30rpx;
+    border: none;
+    outline: none;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: none;
+}
+.main-box .content-box .input-list .right-selct{
+    padding-right: 30rpx;
+    position: relative;
+}
+.main-box .content-box .input-list .right-selct image{
+    position: absolute;
+    right: 0rpx;
+    top:20rpx;
+    width: 30rpx;
+    height: 40rpx;
+}
+.main-box .content-box .textarea-list{
+    font-size: 30rpx;
+}
+.main-box .content-box .textarea-list .top{
+    line-height: 80rpx;
+}
+.main-box .content-box .textarea-list .top text{
+    color: #ff6868;
+}
+.main-box .content-box .textarea-list .bottom textarea{
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid 1rpx #e8e8e8;
+    padding: 30rpx;
+    height: 220rpx;
+    font-size: 30rpx;
+}
+.main-box .content-box .file-box .top{
+    font-size: 30rpx;
+    line-height: 80rpx;
+}
+.main-box .content-box .file-box .bottom{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+}
+.main-box .content-box .file-box .bottom .file-btn{
+    width: 100rpx;
+    height: 100rpx;
+    margin-right: 30rpx;
+}
+.main-box .content-box .file-box .bottom .file-btn image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-box .content-box .questions-list .top{
+    font-size: 30rpx;
+    line-height: 80rpx;
+}
+.main-box .content-box .questions-list .bottom{
+    height: 80rpx;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: solid 1rpx #e8e8e8;
+}
+.main-box .content-box .questions-list .bottom input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 30rpx;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    padding-left: 20rpx;
+}
+.main-box .content-box .add-post{
+    font-size: 30rpx;
+    color: #ff6868;
+    text-align: center;
+    line-height: 80rpx;
+}
+.submit-btn{
+    background: #ff7070;
+    line-height: 80rpx;
+    text-align: center;
+    color: #fff;
+    font-size: 35rpx;
+    border-radius: 40rpx;
+    -webkit-border-radius: 40rpx;
+    -moz-border-radius: 40rpx;
+}

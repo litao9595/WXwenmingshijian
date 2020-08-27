@@ -1,0 +1,9 @@
+<!--compoments/myselct/myselct.wxml-->
+<view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker" style="opacity: 0;">
+          当前选择：{{array[index]}}
+        </view>
+    </picker>
+</view>
+
